@@ -1,3 +1,9 @@
+.div {
+  width: 300px;
+  height: 500px;
+  border: 1px solid red;
+}
+
 .App {
   text-align: center;
 }
