@@ -1,9 +1,11 @@
-.div {
-  width: 300px;
+div {
+  width: 500px;
   height: 500px;
   border: 1px solid red;
+  border-radius: 50px;
+  padding: 5px;
+  background: '#FFFF00';
 }
-
 .App {
   text-align: center;
 }

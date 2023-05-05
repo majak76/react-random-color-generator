@@ -7,6 +7,9 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "@upleveled/react-scripts": "5.0.4",
+    "app.css": "^0.1.2",
+    "node-emoji": "^1.11.0",
+    "randomcolor": "^0.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

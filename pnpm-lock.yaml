@@ -13,6 +13,15 @@ dependencies:
   '@upleveled/react-scripts':
     specifier: 5.0.4
     version: 5.0.4(@babel/plugin-syntax-flow@7.21.4)(@babel/plugin-transform-react-jsx@7.21.5)(eslint-import-resolver-typescript@3.5.5)(react@18.2.0)(typescript@5.0.4)
+  app.css:
+    specifier: ^0.1.2
+    version: 0.1.2
+  node-emoji:
+    specifier: ^1.11.0
+    version: 1.11.0
+  randomcolor:
+    specifier: ^0.6.2
+    version: 0.6.2
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2956,6 +2965,10 @@ packages:
     dependencies:
       normalize-path: 3.0.0
       picomatch: 2.3.1
+
+  /app.css@0.1.2:
+    resolution: {integrity: sha512-0FbkKVzz9OQUw7Gj8BKZiQBjKcQD1pxEzGSYlLCmDdET8ndM8NaloZyin4FiP/v2AC7Nz4XOjIDuYiHVFodFbA==}
+    dev: false
 
   /arg@5.0.2:
     resolution: {integrity: sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==}
@@ -7129,6 +7142,12 @@ packages:
       tslib: 2.5.0
     dev: false
 
+  /node-emoji@1.11.0:
+    resolution: {integrity: sha512-wo2DpQkQp7Sjm2A0cq+sN7EHKO6Sl0ctXeBdFZrL9T9+UywORbufTcTZxom8YqpLQt/FqNMUkOpkZrJVYSKD3A==}
+    dependencies:
+      lodash: 4.17.21
+    dev: false
+
   /node-forge@1.3.1:
     resolution: {integrity: sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA==}
     engines: {node: '>= 6.13.0'}
@@ -8432,6 +8451,10 @@ packages:
     resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
     dependencies:
       safe-buffer: 5.2.1
+    dev: false
+
+  /randomcolor@0.6.2:
+    resolution: {integrity: sha512-Mn6TbyYpFgwFuQ8KJKqf3bqqY9O1y37/0jgSK/61PUxV4QfIMv0+K2ioq8DfOjkBslcjwSzRfIDEXfzA9aCx7A==}
     dev: false
 
   /range-parser@1.2.1:
