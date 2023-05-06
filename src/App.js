@@ -8,10 +8,7 @@ export default function App() {
   return (
     <div className="container">
       <div className="box" style={{ background: color }}>
-        Generated Color:
-        <br />
-        {color}
-        <br />
+        Generated Color: {color}
       </div>
       <button
         onClick={() =>
