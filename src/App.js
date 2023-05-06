@@ -12,15 +12,15 @@ export default function App() {
         <br />
         {color}
         <br />
-        <button
-          onClick={() =>
-            // Generate and set a new value for the color
-            setColor(randomColor)
-          }
-        >
-          Generate
-        </button>
       </div>
+      <button
+        onClick={() =>
+          // Generate and set a new value for the color
+          setColor(randomColor)
+        }
+      >
+        Generate
+      </button>
     </div>
   );
 }
